@@ -1,0 +1,476 @@
+[
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/abstract_data_store.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/abstract_data_store.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/abstract_data_store.cpp",
+  "output": "src/CMakeFiles/diskann.dir/abstract_data_store.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/ann_exception.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/ann_exception.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/ann_exception.cpp",
+  "output": "src/CMakeFiles/diskann.dir/ann_exception.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/disk_utils.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/disk_utils.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/disk_utils.cpp",
+  "output": "src/CMakeFiles/diskann.dir/disk_utils.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/distance.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/distance.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/distance.cpp",
+  "output": "src/CMakeFiles/diskann.dir/distance.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/index.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/index.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/index.cpp",
+  "output": "src/CMakeFiles/diskann.dir/index.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/in_mem_graph_store.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/in_mem_graph_store.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/in_mem_graph_store.cpp",
+  "output": "src/CMakeFiles/diskann.dir/in_mem_graph_store.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/in_mem_data_store.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/in_mem_data_store.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/in_mem_data_store.cpp",
+  "output": "src/CMakeFiles/diskann.dir/in_mem_data_store.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/linux_aligned_file_reader.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/linux_aligned_file_reader.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/linux_aligned_file_reader.cpp",
+  "output": "src/CMakeFiles/diskann.dir/linux_aligned_file_reader.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/math_utils.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/math_utils.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/math_utils.cpp",
+  "output": "src/CMakeFiles/diskann.dir/math_utils.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/natural_number_map.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/natural_number_map.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/natural_number_map.cpp",
+  "output": "src/CMakeFiles/diskann.dir/natural_number_map.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/natural_number_set.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/natural_number_set.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/natural_number_set.cpp",
+  "output": "src/CMakeFiles/diskann.dir/natural_number_set.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/memory_mapper.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/memory_mapper.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/memory_mapper.cpp",
+  "output": "src/CMakeFiles/diskann.dir/memory_mapper.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/partition.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/partition.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/partition.cpp",
+  "output": "src/CMakeFiles/diskann.dir/partition.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/pq.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq.cpp",
+  "output": "src/CMakeFiles/diskann.dir/pq.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/pq_flash_index.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq_flash_index.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq_flash_index.cpp",
+  "output": "src/CMakeFiles/diskann.dir/pq_flash_index.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/scratch.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/scratch.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/scratch.cpp",
+  "output": "src/CMakeFiles/diskann.dir/scratch.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/logger.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/logger.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/logger.cpp",
+  "output": "src/CMakeFiles/diskann.dir/logger.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/utils.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/utils.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/utils.cpp",
+  "output": "src/CMakeFiles/diskann.dir/utils.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/filter_utils.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/filter_utils.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/filter_utils.cpp",
+  "output": "src/CMakeFiles/diskann.dir/filter_utils.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/index_factory.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/index_factory.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/index_factory.cpp",
+  "output": "src/CMakeFiles/diskann.dir/index_factory.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/abstract_index.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/abstract_index.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/abstract_index.cpp",
+  "output": "src/CMakeFiles/diskann.dir/abstract_index.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/pq_l2_distance.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq_l2_distance.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq_l2_distance.cpp",
+  "output": "src/CMakeFiles/diskann.dir/pq_l2_distance.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann.dir/pq_data_store.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq_data_store.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq_data_store.cpp",
+  "output": "src/CMakeFiles/diskann.dir/pq_data_store.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/abstract_data_store.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/abstract_data_store.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/abstract_data_store.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/abstract_data_store.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/ann_exception.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/ann_exception.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/ann_exception.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/ann_exception.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/disk_utils.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/disk_utils.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/disk_utils.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/disk_utils.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/distance.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/distance.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/distance.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/distance.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/index.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/index.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/index.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/index.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/in_mem_graph_store.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/in_mem_graph_store.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/in_mem_graph_store.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/in_mem_graph_store.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/in_mem_data_store.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/in_mem_data_store.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/in_mem_data_store.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/in_mem_data_store.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/linux_aligned_file_reader.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/linux_aligned_file_reader.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/linux_aligned_file_reader.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/linux_aligned_file_reader.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/math_utils.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/math_utils.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/math_utils.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/math_utils.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/natural_number_map.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/natural_number_map.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/natural_number_map.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/natural_number_map.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/natural_number_set.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/natural_number_set.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/natural_number_set.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/natural_number_set.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/memory_mapper.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/memory_mapper.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/memory_mapper.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/memory_mapper.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/partition.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/partition.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/partition.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/partition.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/pq.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/pq.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/pq_flash_index.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq_flash_index.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq_flash_index.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/pq_flash_index.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/scratch.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/scratch.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/scratch.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/scratch.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/logger.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/logger.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/logger.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/logger.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/utils.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/utils.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/utils.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/utils.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/filter_utils.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/filter_utils.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/filter_utils.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/filter_utils.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/index_factory.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/index_factory.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/index_factory.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/index_factory.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/abstract_index.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/abstract_index.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/abstract_index.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/abstract_index.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/pq_l2_distance.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq_l2_distance.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq_l2_distance.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/pq_l2_distance.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/src",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/diskann_s.dir/pq_data_store.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq_data_store.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/src/pq_data_store.cpp",
+  "output": "src/CMakeFiles/diskann_s.dir/pq_data_store.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps",
+  "command": "g++ -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/build_memory_index.dir/build_memory_index.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/build_memory_index.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/build_memory_index.cpp",
+  "output": "apps/CMakeFiles/build_memory_index.dir/build_memory_index.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps",
+  "command": "g++ -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/build_stitched_index.dir/build_stitched_index.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/build_stitched_index.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/build_stitched_index.cpp",
+  "output": "apps/CMakeFiles/build_stitched_index.dir/build_stitched_index.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps",
+  "command": "g++ -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/search_memory_index.dir/search_memory_index.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/search_memory_index.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/search_memory_index.cpp",
+  "output": "apps/CMakeFiles/search_memory_index.dir/search_memory_index.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps",
+  "command": "g++ -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/build_disk_index.dir/build_disk_index.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/build_disk_index.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/build_disk_index.cpp",
+  "output": "apps/CMakeFiles/build_disk_index.dir/build_disk_index.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps",
+  "command": "g++ -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/search_disk_index.dir/search_disk_index.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/search_disk_index.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/search_disk_index.cpp",
+  "output": "apps/CMakeFiles/search_disk_index.dir/search_disk_index.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps",
+  "command": "g++ -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/range_search_disk_index.dir/range_search_disk_index.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/range_search_disk_index.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/range_search_disk_index.cpp",
+  "output": "apps/CMakeFiles/range_search_disk_index.dir/range_search_disk_index.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps",
+  "command": "g++ -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/test_streaming_scenario.dir/test_streaming_scenario.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/test_streaming_scenario.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/test_streaming_scenario.cpp",
+  "output": "apps/CMakeFiles/test_streaming_scenario.dir/test_streaming_scenario.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps",
+  "command": "g++ -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/test_insert_deletes_consolidate.dir/test_insert_deletes_consolidate.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/test_insert_deletes_consolidate.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/test_insert_deletes_consolidate.cpp",
+  "output": "apps/CMakeFiles/test_insert_deletes_consolidate.dir/test_insert_deletes_consolidate.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/fvecs_to_bin.dir/fvecs_to_bin.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/fvecs_to_bin.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/fvecs_to_bin.cpp",
+  "output": "apps/utils/CMakeFiles/fvecs_to_bin.dir/fvecs_to_bin.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/fvecs_to_bvecs.dir/fvecs_to_bvecs.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/fvecs_to_bvecs.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/fvecs_to_bvecs.cpp",
+  "output": "apps/utils/CMakeFiles/fvecs_to_bvecs.dir/fvecs_to_bvecs.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/rand_data_gen.dir/rand_data_gen.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/rand_data_gen.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/rand_data_gen.cpp",
+  "output": "apps/utils/CMakeFiles/rand_data_gen.dir/rand_data_gen.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/float_bin_to_int8.dir/float_bin_to_int8.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/float_bin_to_int8.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/float_bin_to_int8.cpp",
+  "output": "apps/utils/CMakeFiles/float_bin_to_int8.dir/float_bin_to_int8.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/ivecs_to_bin.dir/ivecs_to_bin.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/ivecs_to_bin.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/ivecs_to_bin.cpp",
+  "output": "apps/utils/CMakeFiles/ivecs_to_bin.dir/ivecs_to_bin.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/count_bfs_levels.dir/count_bfs_levels.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/count_bfs_levels.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/count_bfs_levels.cpp",
+  "output": "apps/utils/CMakeFiles/count_bfs_levels.dir/count_bfs_levels.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/tsv_to_bin.dir/tsv_to_bin.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/tsv_to_bin.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/tsv_to_bin.cpp",
+  "output": "apps/utils/CMakeFiles/tsv_to_bin.dir/tsv_to_bin.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/bin_to_tsv.dir/bin_to_tsv.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/bin_to_tsv.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/bin_to_tsv.cpp",
+  "output": "apps/utils/CMakeFiles/bin_to_tsv.dir/bin_to_tsv.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/int8_to_float.dir/int8_to_float.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/int8_to_float.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/int8_to_float.cpp",
+  "output": "apps/utils/CMakeFiles/int8_to_float.dir/int8_to_float.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/int8_to_float_scale.dir/int8_to_float_scale.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/int8_to_float_scale.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/int8_to_float_scale.cpp",
+  "output": "apps/utils/CMakeFiles/int8_to_float_scale.dir/int8_to_float_scale.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/uint8_to_float.dir/uint8_to_float.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/uint8_to_float.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/uint8_to_float.cpp",
+  "output": "apps/utils/CMakeFiles/uint8_to_float.dir/uint8_to_float.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/uint32_to_uint8.dir/uint32_to_uint8.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/uint32_to_uint8.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/uint32_to_uint8.cpp",
+  "output": "apps/utils/CMakeFiles/uint32_to_uint8.dir/uint32_to_uint8.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/vector_analysis.dir/vector_analysis.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/vector_analysis.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/vector_analysis.cpp",
+  "output": "apps/utils/CMakeFiles/vector_analysis.dir/vector_analysis.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/gen_random_slice.dir/gen_random_slice.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/gen_random_slice.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/gen_random_slice.cpp",
+  "output": "apps/utils/CMakeFiles/gen_random_slice.dir/gen_random_slice.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/simulate_aggregate_recall.dir/simulate_aggregate_recall.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/simulate_aggregate_recall.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/simulate_aggregate_recall.cpp",
+  "output": "apps/utils/CMakeFiles/simulate_aggregate_recall.dir/simulate_aggregate_recall.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/calculate_recall.dir/calculate_recall.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/calculate_recall.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/calculate_recall.cpp",
+  "output": "apps/utils/CMakeFiles/calculate_recall.dir/calculate_recall.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/compute_groundtruth.dir/compute_groundtruth.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/compute_groundtruth.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/compute_groundtruth.cpp",
+  "output": "apps/utils/CMakeFiles/compute_groundtruth.dir/compute_groundtruth.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/compute_groundtruth_for_filters.dir/compute_groundtruth_for_filters.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/compute_groundtruth_for_filters.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/compute_groundtruth_for_filters.cpp",
+  "output": "apps/utils/CMakeFiles/compute_groundtruth_for_filters.dir/compute_groundtruth_for_filters.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/generate_pq.dir/generate_pq.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/generate_pq.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/generate_pq.cpp",
+  "output": "apps/utils/CMakeFiles/generate_pq.dir/generate_pq.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/partition_data.dir/partition_data.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/partition_data.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/partition_data.cpp",
+  "output": "apps/utils/CMakeFiles/partition_data.dir/partition_data.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/partition_with_ram_budget.dir/partition_with_ram_budget.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/partition_with_ram_budget.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/partition_with_ram_budget.cpp",
+  "output": "apps/utils/CMakeFiles/partition_with_ram_budget.dir/partition_with_ram_budget.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/merge_shards.dir/merge_shards.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/merge_shards.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/merge_shards.cpp",
+  "output": "apps/utils/CMakeFiles/merge_shards.dir/merge_shards.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/create_disk_layout.dir/create_disk_layout.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/create_disk_layout.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/create_disk_layout.cpp",
+  "output": "apps/utils/CMakeFiles/create_disk_layout.dir/create_disk_layout.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/generate_synthetic_labels.dir/generate_synthetic_labels.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/generate_synthetic_labels.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/generate_synthetic_labels.cpp",
+  "output": "apps/utils/CMakeFiles/generate_synthetic_labels.dir/generate_synthetic_labels.cpp.o"
+},
+{
+  "directory": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/build/apps/utils",
+  "command": "g++ -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DMKL_ILP64 -DRELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/include -I/home/randl/Documents/catapult-db-experiments/catapulted-diskann/gperftools/src -I/usr/include/mkl  -fopenmp -mavx2 -mfma -msse2 -ftree-vectorize -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -O3 -DNDEBUG -DNDEBUG -Ofast -march=native -mtune=native -std=gnu++17 -m64 -Wl,--no-as-needed -Werror -o CMakeFiles/stats_label_data.dir/stats_label_data.cpp.o -c /home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/stats_label_data.cpp",
+  "file": "/home/randl/Documents/catapult-db-experiments/catapulted-diskann/apps/utils/stats_label_data.cpp",
+  "output": "apps/utils/CMakeFiles/stats_label_data.dir/stats_label_data.cpp.o"
+}
+]

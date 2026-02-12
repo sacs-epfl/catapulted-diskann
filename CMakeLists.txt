@@ -22,6 +22,8 @@ project(diskann)
 set(CMAKE_STANDARD 17)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 
 if(NOT MSVC)
 	set(CMAKE_CXX_COMPILER g++)
@@ -231,7 +233,7 @@ if (MSVC)
                             /p:PlatformToolset=v${MSVC_TOOLSET_VERSION}
                             /p:WindowsTargetPlatformVersion=${CMAKE_VS_WINDOWS_TARGET_PLATFORM_VERSION}
                         WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}/gperftools)
- 
+
     add_library(libtcmalloc_minimal_for_exe STATIC IMPORTED)
     add_library(libtcmalloc_minimal_for_dll STATIC IMPORTED)
 
@@ -263,7 +265,7 @@ if (NOT MSVC)
     set(DISKANN_ASYNC_LIB aio)
 endif()
 
-#Main compiler/linker settings 
+#Main compiler/linker settings
 if(MSVC)
 	#language options
 	add_compile_options(/permissive- /openmp:experimental /Zc:twoPhase- /Zc:inline /WX- /std:c++17 /Gd /W3 /MP /Zi /FC /nologo)
@@ -276,7 +278,7 @@ if(MSVC)
     # Linker options. Exclude VCOMP/VCOMPD.LIB which contain VisualStudio's version of OpenMP.
     # MKL was linked against Intel's OpenMP and depends on the corresponding DLL.
     add_link_options(/NODEFAULTLIB:VCOMP.LIB /NODEFAULTLIB:VCOMPD.LIB /DEBUG:FULL /OPT:REF /OPT:ICF)
-	
+
 	set(CMAKE_LIBRARY_OUTPUT_DIRECTORY_DEBUG ${PROJECT_SOURCE_DIR}/x64/Debug)
 	set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${PROJECT_SOURCE_DIR}/x64/Debug)
 	set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_DEBUG ${PROJECT_SOURCE_DIR}/x64/Debug)
