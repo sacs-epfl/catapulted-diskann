@@ -4,6 +4,7 @@
 #pragma once
 
 #include "common_includes.h"
+#include "stats.h"
 
 #ifdef EXEC_ENV_OLS
 #include "aligned_file_reader.h"
@@ -335,6 +336,9 @@ template <typename T, typename TagT = uint32_t, typename LabelT = uint32_t> clas
   private:
     // Distance functions
     Metric _dist_metric = diskann::L2;
+
+    // stats tracking
+    Stats _stats;
 
     // Data
     std::shared_ptr<AbstractDataStore<T>> _data_store;

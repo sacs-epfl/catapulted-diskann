@@ -1,6 +1,7 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
+#include <iostream>
 #include <omp.h>
 
 #include <type_traits>
@@ -179,6 +180,8 @@ template <typename T, typename TagT, typename LabelT> Index<T, TagT, LabelT>::~I
         ScratchStoreManager<InMemQueryScratch<T>> manager(_query_scratch);
         manager.destroy();
     }
+
+    std::cout << "Index destroyed successfully. Lifetime beam calls: " << _stats.get_num_calls() << std::endl;
 }
 
 template <typename T, typename TagT, typename LabelT>
@@ -808,6 +811,7 @@ std::pair<uint32_t, uint32_t> Index<T, TagT, LabelT>::iterate_to_fixed_point(
     InMemQueryScratch<T> *scratch, const uint32_t Lsize, const std::vector<uint32_t> &init_ids, bool use_filter,
     const std::vector<LabelT> &filter_labels, bool search_invocation)
 {
+    _stats.record_call();
     std::vector<Neighbor> &expanded_nodes = scratch->pool();
     NeighborPriorityQueue &best_L_nodes = scratch->best_l_nodes();
     best_L_nodes.reserve(Lsize);
