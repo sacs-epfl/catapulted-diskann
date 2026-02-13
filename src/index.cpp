@@ -39,7 +39,8 @@ Index<T, TagT, LabelT>::Index(const IndexConfig &index_config, std::shared_ptr<A
       _enable_tags(index_config.enable_tags), _indexingMaxC(DEFAULT_MAXC), _query_scratch(nullptr),
       _pq_dist(index_config.pq_dist_build), _use_opq(index_config.use_opq),
       _filtered_index(index_config.filtered_index), _num_pq_chunks(index_config.num_pq_chunks),
-      _delete_set(new tsl::robin_set<uint32_t>), _conc_consolidate(index_config.concurrent_consolidate)
+      _delete_set(new tsl::robin_set<uint32_t>), _conc_consolidate(index_config.concurrent_consolidate),
+      _catapult_store(index_config.dimension, 10, 20)
 {
     if (_dynamic_index && !_enable_tags)
     {
@@ -827,6 +828,9 @@ std::pair<uint32_t, uint32_t> Index<T, TagT, LabelT>::iterate_to_fixed_point(
 
     _pq_data_store->preprocess_query(aligned_query, scratch);
 
+    // Compute catapult signature for this query
+    uint64_t query_signature = _catapult_store.signature(aligned_query);
+
     if (expanded_nodes.size() > 0 || id_scratch.size() > 0)
     {
         throw ANNException("ERROR: Clear scratch space before passing.", -1, __FUNCSIG__, __FILE__, __LINE__);
@@ -858,8 +862,21 @@ std::pair<uint32_t, uint32_t> Index<T, TagT, LabelT>::iterate_to_fixed_point(
         _pq_data_store->get_distance(scratch->aligned_query(), ids, dists_out, scratch);
     };
 
-    // Initialize the candidate pool with starting points
-    for (auto id : init_ids)
+    // Combine init_ids with catapult candidates (without duplicates)
+    std::vector<uint32_t> combined_init_ids(init_ids);
+    std::vector<size_t> catapult_candidates = _catapult_store.get_bucket(query_signature);
+    for (auto catapult_id : catapult_candidates)
+    {
+        // Check if not already in init_ids and is valid
+        if (catapult_id < _max_points + _num_frozen_pts &&
+            std::find(combined_init_ids.begin(), combined_init_ids.end(), catapult_id) == combined_init_ids.end())
+        {
+            combined_init_ids.push_back(static_cast<uint32_t>(catapult_id));
+        }
+    }
+
+    // Initialize the candidate pool with starting points (including catapults)
+    for (auto id : combined_init_ids)
     {
         if (id >= _max_points + _num_frozen_pts)
         {
@@ -991,6 +1008,14 @@ std::pair<uint32_t, uint32_t> Index<T, TagT, LabelT>::iterate_to_fixed_point(
             best_L_nodes.insert(Neighbor(id_scratch[m], dist_scratch[m]));
         }
     }
+
+    //search invocation =?= means we are not building the index but actually searching for stuff
+    if (search_invocation) // todo "&& catapult_enabled"
+    {
+        uint32_t best_result_id = best_L_nodes[0].id;
+        _catapult_store.insert(query_signature, best_result_id);
+    }
+
     return std::make_pair(hops, cmps);
 }
 

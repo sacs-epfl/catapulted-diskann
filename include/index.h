@@ -4,6 +4,7 @@
 #pragma once
 
 #include "common_includes.h"
+#include "hash_start/catapult_store.h"
 #include "stats.h"
 
 #ifdef EXEC_ENV_OLS
@@ -336,6 +337,8 @@ template <typename T, typename TagT = uint32_t, typename LabelT = uint32_t> clas
   private:
     // Distance functions
     Metric _dist_metric = diskann::L2;
+
+    CatapultStore<T> _catapult_store;
 
     // stats tracking
     Stats _stats;
