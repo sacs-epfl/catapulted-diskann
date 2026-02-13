@@ -7,7 +7,7 @@
 #include <vector>
 namespace diskann {
 
-    struct LockedBucket {
+    class LockedBucket {
         private:
             LruSet data;
             mutable std::shared_mutex mutex;
