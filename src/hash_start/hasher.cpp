@@ -37,22 +37,21 @@ namespace diskann {
         }
     }
 
-    template<typename T>
+    template <typename T>
     size_t SimilarityHasher<T>::hash_int(const T* vector) const {
         if (!vector) {
             throw std::invalid_argument("Input vector pointer cannot be null");
         }
 
         size_t projected = 0;
-        float fvector[stored_vectors_dim_];
+
+        float casted[stored_vectors_dim_];
         for (size_t i = 0; i < stored_vectors_dim_; ++i) {
-            fvector[i] = static_cast<float>(vector[i]);
+            casted[i] = static_cast<float>(vector[i]); // note: this is a very dumb implementation if the vectors are uint (and not float). Whatver. We do floats in the experiments.
         }
 
-        // Iterate over each hyperplane, collecting those with positive dot product (vector is on the same side as their normal)
         for (const auto& plane : projections_) {
-            // Compute dot product: plane · vector
-            float dot = std::inner_product(plane.begin(), plane.end(), fvector, 0.0f);
+            float dot = dot_computer_.compare(plane.data(), casted, stored_vectors_dim_);
 
             projected <<= 1;
             if (dot >= 0.0f) {

@@ -15,12 +15,12 @@ namespace diskann {
         private:
             std::size_t _dimensions;
             std::size_t _num_hash;
-            std::size_t _fifo_evict;
+            std::size_t _lru_evict;
             std::unique_ptr<std::optional<LockedBucket>[]> buckets;
             SimilarityHasher<T> hasher;
 
         public:
-            CatapultStore(size_t dimensions, size_t num_hash, size_t fifo_evict);
+            CatapultStore(size_t dimensions, size_t num_hash, size_t lru_evict);
             uint64_t signature(const T* vector);
             void insert(uint64_t signature, size_t id);
             std::vector<size_t> get_bucket(uint64_t signature);

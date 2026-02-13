@@ -6,13 +6,13 @@
 namespace diskann {
 
     template<typename T>
-    CatapultStore<T>::CatapultStore(size_t dimensions, size_t num_hash, size_t fifo_evict)
-        : _dimensions(dimensions), _num_hash(num_hash), _fifo_evict(fifo_evict), hasher(num_hash, dimensions) {
+    CatapultStore<T>::CatapultStore(size_t dimensions, size_t num_hash, size_t lru_evict)
+        : _dimensions(dimensions), _num_hash(num_hash), _lru_evict(lru_evict), hasher(num_hash, dimensions) {
         auto bucket_count = 1 << num_hash;
 
         buckets = std::make_unique<std::optional<LockedBucket>[]>(bucket_count);
         for (size_t i = 0; i < bucket_count; ++i) {
-            buckets[i].emplace(fifo_evict);
+            buckets[i].emplace(lru_evict);
         }
     }
 
